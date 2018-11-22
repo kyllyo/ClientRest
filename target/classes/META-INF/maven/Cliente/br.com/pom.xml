@@ -1,0 +1,152 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Cliente</groupId>
+  <artifactId>br.com</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>ProjetoRest</name>
+  
+  	<dependencies>
+  	
+  	<!-- 
+  	 <dependency>
+        <groupId>commons-io</groupId>
+        <artifactId>commons-io</artifactId>
+        <version>2.0.1</version>
+     </dependency>
+     
+      
+  	
+  	<dependency>
+        <groupId>org.jboss.resteasy</groupId>
+         <artifactId>resteasy-jaxrs</artifactId>
+        <version>3.6.2.Final</version>
+    </dependency>
+    
+    <dependency>
+        <groupId>net.sf.scannotation</groupId>
+        <artifactId>scannotation</artifactId>
+        <version>1.0.2</version>
+    </dependency>
+    -->
+    <!-- JAXB provider  
+   <dependency>
+        <groupId>org.jboss.resteasy</groupId>
+        <artifactId>resteasy-jaxb-provider</artifactId>
+        <version>2.3.1.GA</version>
+    </dependency>
+    -->
+<!-- https://mvnrepository.com/artifact/org.codehaus.jackson/jackson-all 
+<dependency>
+    <groupId>org.codehaus.jackson</groupId>
+    <artifactId>jackson-all</artifactId>
+    <version>1.8.5</version>
+</dependency>
+-->
+<!-- -->         
+<!-- 
+	<dependency>
+	    <groupId>org.jboss.resteasy</groupId>
+	    <artifactId>resteasy-client</artifactId>
+	    <version>3.6.2.Final</version>
+	</dependency>
+	 -->
+ 
+    <!-- Multipart support --> 
+    <dependency>
+        <groupId>org.jboss.resteasy</groupId>
+        <artifactId>resteasy-multipart-provider</artifactId>
+        <version>3.0.2.Final</version>
+    </dependency>
+    
+    <!-- For better I/O control --> 
+    <dependency>
+   		<groupId>org.apache.httpcomponents</groupId>
+   		<artifactId>httpmime</artifactId>
+   		<version>4.2.5</version>
+	</dependency>
+	
+	<!-- -->  
+	<dependency>
+	    <groupId>org.apache.httpcomponents</groupId>
+	    <artifactId>httpclient</artifactId>
+	    <version>4.2.5</version>
+	</dependency>
+	
+	<!--  
+	<dependency>
+	    <groupId>org.apache.httpcomponents</groupId>
+	    <artifactId>httpclient-cache</artifactId>
+	    <version>4.2.5</version>
+	</dependency>
+	-->
+	
+	<dependency>
+	    <groupId>org.jboss.resteasy</groupId>
+	    <artifactId>resteasy-jackson-provider</artifactId>
+	    <version>3.6.2.Final</version>
+   </dependency>
+   
+   <!-- https://mvnrepository.com/artifact/javax.ws.rs/javax.ws.rs-api -->
+<dependency>
+    <groupId>javax.ws.rs</groupId>
+    <artifactId>javax.ws.rs-api</artifactId>
+    <version>2.0</version>
+</dependency>
+   
+	 
+	
+	<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/fluent-hc  
+	<dependency>
+	    <groupId>org.apache.httpcomponents</groupId>
+	    <artifactId>fluent-hc</artifactId>
+	    <version>4.2.5</version>
+	</dependency>
+	-->
+	
+	
+  	<!-- 
+        <dependency>
+            <groupId>org.glassfish.jersey.core</groupId>
+            <artifactId>jersey-client</artifactId>
+            <version>2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.jersey.media</groupId>
+            <artifactId>jersey-media-moxy</artifactId>
+            <version>2.0</version>
+        </dependency>
+		<dependency>
+	        <groupId>javax.mail</groupId>
+	        <artifactId>mail</artifactId>
+	        <version>1.4.5</version>
+	    </dependency>
+	    <dependency>
+	        <groupId>javax.activation</groupId>
+	        <artifactId>activation</artifactId>
+	        <version>1.1.1</version>
+	    </dependency>        
+		<dependency>
+		    <groupId>com.mashape.unirest</groupId>
+		    <artifactId>unirest-java</artifactId>
+		    <version>1.4.9</version>
+		</dependency>
+		 -->	    
+    </dependencies>
+	<repositories>
+        <repository>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+            <id>igexin</id>
+            <name>Igexin</name>
+            <url>http://mvn.gt.igexin.com/nexus/content/repositories/releases/</url>
+		</repository>
+	</repositories>
+    
+  	
+  
+  
+</project>
